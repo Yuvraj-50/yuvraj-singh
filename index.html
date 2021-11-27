@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Yuvraj Singh</title>
+</head>
+
+<body>
+    <section class="header" id="home">
+        <div class="shadow">
+            <nav>
+                <h1>YUVRAJ SINGH</h1>
+
+                <div class="nav-links" id="navlink">
+                    <i class="fa fa-times hide fa-2x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#project">PROJECT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars fa-2x" onclick="showMenu()"></i>
+            </nav>
+        </div>
+
+        <div class="text-area container">
+            <h1>Hey!</h1>
+            <h1>I'm <span>Yuvraj</span> </h1>
+            <img src="img/web-developer.png" alt="">
+            <h1>A Web developer</h1>
+            <a class="btn" href="#contact">CONTACT ME</a>
+        </div>
+
+        <div class="social">
+            <a href="https://twitter.com/Yuvraj505" target="_blank"><i class="fab fa-twitter "></i></a>
+            <a href="https://github.com/Yuvraj-50" target="_blank"><i class="fab fa-github "></i></a>
+            <a href="https://www.instagram.com/yuvraj.50/" target="_blank"><i class="fab fa-instagram "></i></a>
+        </div>
+    </section>
+
+
+
+
+    <!-- about -->
+
+    <section class="about container" id="about">
+        <h1>ABOUT</h1>
+        <div class="grid    ">
+            <img src="img/head-g9f6856465_640.png" alt="">
+            <div>
+                <p>
+                    I am a first first year cs student highly passinate about laeaning web development.
+                    currently learning javascript. I do play badmiton in my free time
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end of about -->
+
+    <!-- skills -->
+    <section class="skills container" id="skills">
+        <h1>skills</h1>
+        <h2>Tech-stack and tools</h2>
+        <div class="flex">
+            <div class="card ">
+                <i class="fab fa-html5 fa-2x"></i>
+                <p>HTML 5</p>
+            </div>
+            <div class="card ">
+                <i class="fab fa-css3-alt fa-2x"></i>
+                <p>CSS 3</p>
+            </div>
+            <div class="card ">
+                <i class="fab fa-bootstrap fa-2x"></i>
+                <p>BOOTSTRAP</p>
+            </div>
+            <div class="card ">
+                <i class="fab fa-js fa-2x"></i>
+                <p>java script</p>
+            </div>
+            <div class="card">
+                <img src="img/visual-studio.png" alt="">
+                <p>vs code</p>
+            </div>
+            <div class="card ">
+                <i class="fab fa-git fa-2x"></i>
+                <p>HTML 5</p>
+            </div>
+            <div class="card ">
+                <img src="img/adobe-photoshop.png" alt="">
+                <p>photoshop</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end of the skills -->
+
+
+    <!-- projects -->
+    <section class="project" id="project">
+        <div class="container">
+
+            <h1>Projects</h1>
+            <div class="left">
+                <div class="flex">
+                    <div class="left">
+                        <img src="img/porjrect 1 (1).png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                            <h2>Drum kit</h2>
+                            <p>This site is made using htlm, css and javascript. When you press any key in keyboard you
+                                will be hearing a sound corresponding ot the key
+                            </p>
+                            <a class="btn2" href="https://yuvraj-50.github.io/DrumsKit/" target="_blank">visit site <i
+                                    class="fas fa-external-link-alt"></i></a>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex">
+                    <div class="left">
+                        <img src="img/porjrect 2 (2).png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                            <h2>Simon game</h2>
+                            <p>This game is made with html css and javascript. This is made using dom mainpulation
+                                javascript function array
+                                and many others
+                            <p>
+
+                                <a class="btn2" href="https://yuvraj-50.github.io/simon-game/" target="_blank">visit
+                                    site <i class="fas fa-external-link-alt"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex">
+                    <div class="left">
+                        <img src="img/porjrect 3 (3).png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="card">
+                            <h2>loruki</h2>
+                            <p>This site is made using htlm and css.
+                                This site contains 3 pages and it is a static site. And contains a little bit of
+                                animation
+                            </p>
+
+                            <a class="btn2" href="https://loruku-cloud.netlify.app/" target="_blank">visit site <i
+                                    class="fas fa-external-link-alt"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- end of projects -->
+
+    <!-- contact page -->
+    <section class="container" id="contact">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="form">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            <h1>contact</h1>
+            <label for="name"></label>
+            <input type="text" placeholder="Name">
+            <label for="email"></label>
+            <input type="email" placeholder="email">
+            <textarea placeholder="write something" name="text-area" cols="30" rows="10"></textarea>
+            <input type="submit" value="send" class="btn2">
+
+        </form>
+    </section>
+
+    <!-- end of the contact page -->
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="container">
+            <h1>yuvraj singh</h1>
+
+
+            <div class="social">
+                <a href="https://twitter.com/Yuvraj505" target="_blank"><i class="fab fa-twitter "></i></a>
+                <a href="https://github.com/Yuvraj-50" target="_blank"><i class="fab fa-github "></i></a>
+                <a href="https://www.instagram.com/yuvraj.50/" target="_blank"><i class="fab fa-instagram "></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end of the footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- java script -->
+
+    <script>
+        var menu = document.getElementById("navlink");
+
+        function showMenu() {
+            menu.style.right = 0;
+        }
+
+        function hideMenu() {
+            menu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
